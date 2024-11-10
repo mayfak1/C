@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<ctype.h>
-int alfnum(char* ch);
+int alfnum(char* );
 int const asci=64;
 int main(){
     char ch;

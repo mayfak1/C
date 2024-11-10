@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void sort(double* n1,double*n2,double*n3);
+void sort(double* ,double*,double*);
 int main(){
     double num1,num2,num3;
     scanf("%lf",&num1);

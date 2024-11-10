@@ -1,11 +1,11 @@
 #include<stdio.h>
-// void userInt(char* ch);
+
 int main(){
 
     printf("Выберите операцию:\na:Умножение\tb:Сложение\nc:Вычитание\td:Деление\ne:end\n");
     char ch;
     int i=0;
-    // userInt(&ch);
+
     float num1,num2,res;
     
     
@@ -31,7 +31,7 @@ int main(){
             break;
         }
         printf("%.2f\n",res);
-        // userInt(&ch);
+
 
         printf("Выберите операцию:\na:Умножение\tb:Сложение\nc:Вычитание\td:Деление\ne:end\n");
         while (getchar() != '\n');
