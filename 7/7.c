@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<ctype.h>
 int alfnum(char* );
-int const asci=64;
+int const ASCI=64;
 int main(){
     char ch;
     while((ch=getchar())!=EOF){
@@ -18,7 +18,7 @@ int main(){
 int alfnum(char* ch){
     if (isalpha(*ch)){
             *ch=toupper(*ch);
-            return *ch-asci;
+            return *ch-ASCI;
         }else{
             return -1;
         }
